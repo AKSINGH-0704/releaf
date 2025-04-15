@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -22,9 +21,7 @@ const PlantDashboard: React.FC<PlantDashboardProps> = ({ plants, onAddPlant }) =
   );
 
   const handleSelectPlant = (plant: Plant) => {
-    // In a future implementation, this would navigate to a plant detail view
     console.log("Selected plant:", plant);
-    // For now we'll navigate to the analysis page as a placeholder
     navigate(`/analysis?plant=${plant.id}`);
   };
 
@@ -33,7 +30,7 @@ const PlantDashboard: React.FC<PlantDashboardProps> = ({ plants, onAddPlant }) =
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center">
           <Leaf className="h-6 w-6 text-leaf mr-2" />
-          <h1 className="text-2xl font-bold text-leaf-dark">LeafLogic</h1>
+          <h1 className="text-2xl font-bold text-leaf-dark">ReLeaf</h1>
         </div>
         <Button 
           variant="outline" 

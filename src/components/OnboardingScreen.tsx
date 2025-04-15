@@ -56,7 +56,7 @@ const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onGetStarted }) => 
         <div className="relative inline-block mb-2">
           <Leaf className="h-16 w-16 text-leaf animate-leaf-sway" />
         </div>
-        <h1 className="text-4xl font-bold text-leaf-dark">LeafLogic</h1>
+        <h1 className="text-4xl font-bold text-leaf-dark">ReLeaf</h1>
         <p className="text-lg text-muted-foreground mt-2">Your personal plant care assistant</p>
       </div>
 
